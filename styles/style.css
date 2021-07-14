@@ -6,6 +6,9 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #FFFFFF;
 }
+main{
+    padding-bottom: 50px;
+}
 .player-container , .blog-container{
     margin-left: 180px;
     margin-right: 210px;
@@ -43,8 +46,14 @@ button{
     text-decoration: none;
     margin-right: 36px;
 }
-.login-button:hover{
-    background-color: #000000;
+.navigation:hover a{
+    color: red;
+    transition: color 1s linear 0s;
+}
+button:hover{
+    background-image: linear-gradient(to bottom right, teal, yellow);
+    transform: scale(1.2);
+    transition: transform .8s ease-in-out ;
 }
 .main-heading{
     display: flex;
@@ -60,13 +69,22 @@ button{
 .main-title{
     font-size: 64px;
 }
-
+.main-title:hover{
+    color: #ecf00a;
+    transition: color 1.5s;
+    
+}
 .banner img{
     width: 556.01px;
     height: 438px; 
     padding-top: 49px;
     padding-left: 102px;
+    
 }
+.banner:hover img {
+    transform: scale(1.30);
+    transition: transform 2s linear;
+  }
 /* heading style end  */
 
 /* player details start */
@@ -128,7 +146,7 @@ article{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 85px;
+    margin: 65px;
 }
 .foot-logo img{
     width: 483.87px;
