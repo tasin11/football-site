@@ -168,5 +168,29 @@ article{
 }
 /* footer decoration end  */
 
-/* media query */
+/* media query start*/
+
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    .title{
+        padding: 0;
+    }
+    .choice , .blogs{
+        
+        grid-template-columns: repeat(1,1fr);
+    }
+    .player-info , .blog {
+        flex-direction: column;
+        
+    }
+    .player-container , .blog-container{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+}
+
+/* media query end */
 
