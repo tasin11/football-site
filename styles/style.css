@@ -8,6 +8,7 @@ body{
 }
 main{
     padding-bottom: 50px;
+    background-color: #FFFFFF;
 }
 .player-container , .blog-container{
     margin-left: 180px;
@@ -24,7 +25,7 @@ button{
     color: #FFFFFF;
     
 }
-/* --common styles start--  */ 
+/* --common styles end--  */ 
 
 /* heading style start */
 .header-container{
@@ -51,7 +52,7 @@ button{
     transition: color 1s linear 0s;
 }
 button:hover{
-    background-image: linear-gradient(to bottom right, teal, yellow);
+    background-image: linear-gradient(to bottom right, tomato, red);
     transform: scale(1.2);
     transition: transform .8s ease-in-out ;
 }
@@ -82,8 +83,8 @@ button:hover{
     
 }
 .banner:hover img {
-    transform: scale(1.30);
-    transition: transform 2s linear;
+    transform: scale(1.20);
+    transition: transform 1.5s linear;
   }
 /* heading style end  */
 
@@ -113,12 +114,13 @@ button:hover{
     
     
 }
-.player-data{
-    /* padding: 15px; */
+.player-info p{
+    color: #6C6C6C;
 }
+
 /* player details end */
 
-/* artiicle part start  */
+/* articale part start  */
 .blogs{
     display: grid;
     grid-template-rows: repeat(3,1fr);
@@ -130,6 +132,10 @@ article{
 
 .blog-title{
     font-size: 48px;
+    color: #0A0826;
+}
+.blog-detail{
+    color: #6C6C6C;
 }
 .blog-element{
     padding-right: 66px;
@@ -138,7 +144,7 @@ article{
     width: 567px;
     height: 427px;
 }
-/* artiicle part  end  */
+/* articale part  end  */
 
 /* footer decoration start  */
 .foot-info{
@@ -152,8 +158,15 @@ article{
     width: 483.87px;
     height: 110px;
 }
+.fab{
+    color: #969BAB;
+    padding-right: 14px;
+}
 .copyright{
     color: #000000;
     font-size: 18px;
 }
-/* footer decoration start  */
+/* footer decoration end  */
+
+/* media query */
+
