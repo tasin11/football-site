@@ -1,0 +1,141 @@
+/* font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* --common styles start--  */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+}
+.player-container , .blog-container{
+    margin-left: 180px;
+    margin-right: 210px;
+}
+.blog-container{
+    margin-top: 165px;
+}
+button{
+    background-color: #E02C6D;
+    width: 123px;
+    height: 44px;
+    font-size: 16px;
+    color: #FFFFFF;
+    
+}
+/* --common styles start--  */ 
+
+/* heading style start */
+.header-container{
+    background-color: #2D25A0;
+    width: 100%;
+    height: 677px;
+    margin-bottom: 70px;
+}
+.head-nav{
+    display: flex;
+    justify-content:space-between ;
+    padding-top: 42px;
+    padding-right:140px ;
+    padding-left:140px ;
+}
+.navigation a{
+    color: #FFFFFF;
+    font-size: 16px;
+    text-decoration: none;
+    margin-right: 36px;
+}
+.login-button:hover{
+    background-color: #000000;
+}
+.main-heading{
+    display: flex;
+}
+.title {
+    color: #FFFFFF;
+    width: 485px;
+    height: 230px;
+    padding-top: 69px;
+    padding-left: 156px;
+    margin-bottom: 15px;
+}
+.main-title{
+    font-size: 64px;
+}
+
+.banner img{
+    width: 556.01px;
+    height: 438px; 
+    padding-top: 49px;
+    padding-left: 102px;
+}
+/* heading style end  */
+
+/* player details start */
+.choice{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-row-gap: 30px ;
+    grid-column-gap: 45px;
+    
+}
+.player-info{
+    padding: 15px;
+    width: 330px;
+    height: 456px;
+    box-shadow: 0px 0px 3px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.player-info img{
+    width: 300px;
+    height: 256px;
+    padding: 15px;
+    margin: 0;
+    
+    
+}
+.player-data{
+    /* padding: 15px; */
+}
+/* player details end */
+
+/* artiicle part start  */
+.blogs{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 65px;
+}
+article{
+    display: flex;
+}
+
+.blog-title{
+    font-size: 48px;
+}
+.blog-element{
+    padding-right: 66px;
+}
+.blog-image img{
+    width: 567px;
+    height: 427px;
+}
+/* artiicle part  end  */
+
+/* footer decoration start  */
+.foot-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 85px;
+}
+.foot-logo img{
+    width: 483.87px;
+    height: 110px;
+}
+.copyright{
+    color: #000000;
+    font-size: 18px;
+}
+/* footer decoration start  */
